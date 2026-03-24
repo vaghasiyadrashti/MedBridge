@@ -16,24 +16,24 @@ app.use("/api/orders", require("./routes/orders"));
 app.use("/api/inventory", require("./routes/inventory"));
 
 // MongoDB Connection
-// mongoose
-//   .connect(
-//     process.env.MONGODB_URI ||
-//       "mongodb+srv://kunalmali20251_db_user:zyxlYDR4wN4GFP3P@cluster0.btqjxgg.mongodb.net/MedBridge?appName=Cluster0",
-//     {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//     }
-//   )
-//   .then(() =>
-//     console.log(`MongoDB connected successfully ${process.env.MONGODB_URI}`)
-//   )
-//   .catch((err) => console.log("MongoDB connection error:", err));
+mongoose
+  .connect(
+    process.env.MONGODB_URI ||
+      "mongodb+srv://drashti:drashti1904@cluster0.jvaky0t.mongodb.net/MedBridge",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
+  .then(() =>
+    console.log(`MongoDB connected successfully ${process.env.MONGODB_URI}`)
+  )
+  .catch((err) => console.log("MongoDB connection error:", err));
 
 // Basic route
 app.get("/api", (req, res) => {
   res.json({
-    message: "MediChainX API is running!",
+    message: "MedBridge API is running!",
     version: "1.0.0",
     endpoints: {
       auth: "/api/auth",
