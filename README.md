@@ -1,49 +1,35 @@
-# MedBridge-Logistics - Medical Logistics and Transportation Platform
+# **MedBridge-Logistics – Medical Supply Chain & Delivery Platform**
 
-## Introduction
+## **Introduction**
 
-MedBridge is an intelligent medical logistics and transportation platform that revolutionizes healthcare supply chain management. The system connects healthcare providers, delivery drivers, and administrators through a seamless digital ecosystem to ensure timely and efficient delivery of critical medical supplies.
+MedBridge is a smart medical logistics and transportation platform designed to streamline healthcare supply chain operations. It connects healthcare providers, delivery drivers, and administrators into a unified digital system, ensuring efficient and timely delivery of critical medical supplies.
 
+## **Core Features**
 
-### Core Features
+* 🔐 **JWT Authentication** – Secure login system with role-based access for admins, healthcare providers, and drivers
+* 🏥 **Order Management** – Simplified order placement system for hospitals and medical facilities
+* 📦 **Inventory Management** – Centralized system to track and manage medical supplies
+* 🚚 **Delivery Management** – Dedicated driver portal for handling deliveries and route updates
 
-- 🔐 **JWT Authentication** - Secure login with role-based access control for admins, healthcare providers, and drivers
-- 🏥 **Order Placement System** - Streamlined order system for hospitals and medical facilities
-- 📦 **Inventory Management** - Comprehensive system for managing medical supplies with admin controls
-- 🚚 **Delivery Management** - Driver portal for managing deliveries and routes
+## **Key Highlights**
 
-### Unique Features
+* ⚠️ **Low-Stock Alerts** – Automatic notifications when inventory reaches critical levels
+* 👥 **Multi-Role System** – Smooth coordination between admins, providers, and delivery personnel
 
-- ⚠️ **Low-Stock Alerts** - Automated notifications for critical supply levels
-- 👥 **Multi-Role Ecosystem** - Seamless coordination between healthcare providers, drivers, and administrators
-
-### Additional Features
-
-- 📊 **System Analytics** - Performance monitoring and delivery metrics
-- 📱 **Responsive Design** - Accessible across all devices
-
-## Technology Stack
+## **Tech Stack**
 
 **Frontend:**
 
-- React.js
-- React Router for navigation
-- Context API for state management
+* React.js
+* React Router
+* Context API
 
 **Backend:**
 
-- Node.js with Express.js
-- JWT for authentication
+* Node.js
+* Express.js
+* JWT Authentication
 
 **Database:**
 
-- MongoDB
-
-## Installation & Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/vaghasiyadrashti/MedBridge-Logistics.git
-cd MedBridge-Logistics
-```
+* MongoDB
